@@ -1,0 +1,21 @@
+<suite name="Calculator Test">
+	<parameters>
+		<parameter name="browser" value="Chrome"/>
+		<parameter name="driverexe" value="D:/selenium web driver/chromedriver.exe" />
+	</parameters>
+	<test name="Release 2021.5 Calculator Test">
+		<classes>
+			<class name="com.spurqlabs.test.Calculator_test" />
+			<!-- A classes can have multiple class -->
+			
+		</classes>
+	</test>
+	<!-- A suite can have multiple test -->
+</suite>
+
+<!--
+include and exclude the method from test. 
+<methods>
+	<include name="empty_search_test"></include>
+</methods>
+ -->
